@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: img-pod
+spec:
+  containers:
+  - name: img-container01
+    image: yashgoyal101/tomcat-image:1.0
+    ports:
+    - containerPort: 6379
